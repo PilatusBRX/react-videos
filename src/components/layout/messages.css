@@ -1,0 +1,13 @@
+ 
+#toast-container{
+  position: relative;
+}
+
+
+    #toast-container .toast.panning{
+      position: absolute;  
+      left: 50%;   
+    transform: translateX(0);
+    transform: translate(-50%);
+     opacity: 0.966054;
+    }
