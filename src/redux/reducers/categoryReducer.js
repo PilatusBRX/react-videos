@@ -12,8 +12,7 @@ import {
      error: null
  }  
 
- export default  (state = initialState, action) => {
-     
+const categoryReducer =  (state = initialState, action) => {     
     switch(action.type){
    case GET_CATEGORIES:
         return{
@@ -51,9 +50,8 @@ import {
         }    
 
     default:
-        return state;   
+        return state; 
+    }
 
-
-    }//switch
-
- }//this is the end
+ }
+  export default categoryReducer;
