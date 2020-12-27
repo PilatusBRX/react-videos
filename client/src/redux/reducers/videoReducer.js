@@ -17,7 +17,7 @@ import {
      error: null
  }   
 
- const videoReducer =   (state = initialState, action) => {
+ export default  (state = initialState, action) => {
     switch (action.type) {
 
     case GET_VIDEOS:
@@ -84,4 +84,3 @@ import {
     }
 
  }
- export default videoReducer 

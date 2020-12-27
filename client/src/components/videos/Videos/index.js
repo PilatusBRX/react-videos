@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 import Loader from '../../layout/Loader';
 import Video from '../Video'; 
+import FilterVideos from '../FilterVideos';
 import {getVideos} from '../../../redux/actions/videoActions';   
 import {
 Title,

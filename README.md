@@ -38,7 +38,7 @@
 <br>
 <li>Json Server como servidor backend</li>
 <li>Pacote React  Player</li>
-<li>React  Router Dom</li>
+<li> React  Router Dom</li>
 <li>Redux com React Hooks</li>
 <li>Styled Components</li>
 <li>React Moment com data/hora já em pt-br</li>
@@ -49,6 +49,13 @@
 <br>
 <br>
 <h3>Como usar e instalar:</h3>
-<li>Instalação: rode o comando npm install ou yarn</li>
+<li>Instalação: rode o comando npm install ou yarn tanto na pasta client quanto na pasta server, pois são dois sistemas rodando separadamente</li>
 <li>Uso do client: npm start ou yarn start </li>
-<li>API utilizada: https://v1deos.herokuapp.com/</li>
+<li>Uso do server: npm run server ou yarn run server </li>
+<br>
+<br>
+<h3>A porta do servidor usada foi a 5000, então o server ficará assim:</h3>
+<br>
+<p>http://localhost:5000/videos </p>
+<p>http://localhost:5000/categories</p>
+
