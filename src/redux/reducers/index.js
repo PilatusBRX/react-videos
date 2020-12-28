@@ -4,5 +4,5 @@ import categoryReducer from '../reducers/categoryReducer';
 
 export default combineReducers({
     videoList: videoReducer,
-    categoryList: categoryReducer 
+    categoryList: categoryReducer   
 })
