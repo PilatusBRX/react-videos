@@ -6,9 +6,12 @@ export const Title = styled.h1`
     letter-spacing: 1.5px;
     margin: 2em 0;
     text-transform: uppercase;
-    @media (max-width: 720px) {
-         font-size: 22px; 
-         padding-top: 30px;     
+    @media (max-width: 959px) {
+         font-size: 16px; 
+         padding-top: 30px;        
+         line-height: 20px;
+         margin: 50px  0  30px 20px;       
+              
     }
 `;
 
@@ -63,6 +66,11 @@ color: #9D9B9B;
 font-size: 3.2em;
 position: absolute;
 top: 2.25em;
+@media (max-width: 959px) {
+    position: absolute;
+   
+    
+}
 `;
 
 export const Sinopse = styled.p`  
@@ -89,7 +97,7 @@ top: 5.75em;
 left: 97.5%;
 transform: translate(-97.5%, 5.75em);
 padding: .2em 1.5em;
-@media (max-width: 959px) {
+@media (max-width: 720px) {
     display: none;            
 }
 `;
