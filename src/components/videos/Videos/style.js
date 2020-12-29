@@ -6,6 +6,11 @@ font-weight: 900;
 letter-spacing: 1.5px;
 margin: 2em 0;
 text-transform: uppercase;
+@media (max-width: 720px) {  
+    font-size: 22px; 
+    padding-top: 30px;     
+   
+} 
 `;
 export const SubTitle = styled.h2`
 text-align: center;

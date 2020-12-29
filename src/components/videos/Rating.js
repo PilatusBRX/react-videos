@@ -75,6 +75,11 @@ Rating.defaultProps = {
 const Icon = styled.span`    
     font-size: 1.45em;
     color: #9E9C9F;
+    @media (max-width: 720px) {  
+    font-size: 1.2em;    
+    margin: 1em .2em;   
+  
+}
 `;
 
 export default Rating;

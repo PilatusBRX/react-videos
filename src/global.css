@@ -44,7 +44,6 @@
 }
 
 @media (min-width: 576px) {
-
   .container,
   .container-sm {
     max-width: 540px;
@@ -52,7 +51,6 @@
 }
 
 @media (min-width: 768px) {
-
   .container,
   .container-sm,
   .container-md {
@@ -61,7 +59,6 @@
 }
 
 @media (min-width: 992px) {
-
   .container,
   .container-sm,
   .container-md,
@@ -71,7 +68,6 @@
 }
 
 @media (min-width: 1200px) {
-
   .container,
   .container-sm,
   .container-md,
@@ -443,8 +439,6 @@
   }
 }
 
-
-
 /* global styles*/
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
 
@@ -456,53 +450,48 @@
   margin: 0;
 }
 
-
 html {
-font-size: 62.5%;
-box-sizing: border-box;
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
-body{
-font-size: 1em;
-overflow-x: hidden;
-font-family: 'Raleway', sans-serif;
-background: #343136;
-/* background: #35363A; */
-color: #9D9B9B;
+body {
+  font-size: 1em;
+  overflow-x: hidden;
+  font-family: 'Raleway', sans-serif;
+  background: #343136;
+  /* background: #35363A; */
+  color: #9d9b9b;
 }
 
-h1{
+h1 {
   font-size: 3.2em;
 }
 
-h3{
+h3 {
   font-size: 2em;
 }
 
-img{
-border-radius: .8em;
-width: 100%;
+img {
+  border-radius: 0.8em;
+  width: 100%;
 }
 
+.single-video:hover .overlay {
+  visibility: visible;
+}
+.single-video:hover img {
+  filter: brightness(35%);
+}
 @media (max-width: 1280px) {
-  .container {    
-    max-width: 1140px;  
-  } 
-  
+  .container {
+    max-width: 1140px;
   }
+}
 @media (min-width: 1281px) {
-  .container {    
-    max-width: 1260px; 
+  .container {
+    max-width: 1260px;
     padding-left: 10px;
     padding-right: 10px;
-  } 
-  
-}
-
- .single-video:hover .overlay{
-    visibility: visible;    
   }
-  .single-video:hover img{
-    filter: brightness(35%);  
-    
-  } 
+}

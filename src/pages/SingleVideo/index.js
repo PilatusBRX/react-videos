@@ -62,7 +62,7 @@ const SingleVideo = ({ match, history }) => {
     return (
         <>
         <VideoScreen className="col-lg-12">           
-            <Link to="/">
+            <Link to="/" className="link">
                 <Back><AiOutlineArrowLeft /></Back>
             </Link>           
             <Title>{video.title}</Title>                                         
@@ -73,7 +73,7 @@ const SingleVideo = ({ match, history }) => {
                 <Rating value={video.rating}/>
             </Info> 
                 <Sinopse>{video.description}</Sinopse> 
-                <Actions>
+                <Actions className="actions">
                     <Trash onClick={onDelete}><FaTrash /></Trash>
                     <Link to={`/videos/edit/${video.id}`} onClick={onSetCurrent}><Edit><AiTwotoneEdit /></Edit></Link>                                  
                 </Actions>                                                      
