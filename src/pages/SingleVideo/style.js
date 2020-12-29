@@ -89,7 +89,7 @@ top: 5.75em;
 left: 97.5%;
 transform: translate(-97.5%, 5.75em);
 padding: .2em 1.5em;
-@media (max-width: 720px) {
+@media (max-width: 959px) {
     display: none;            
 }
 `;
