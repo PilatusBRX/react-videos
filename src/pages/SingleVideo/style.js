@@ -57,7 +57,8 @@ text-align: left;
 margin: 0 3em; 
 @media (max-width: 720px) {
  font-size: 1.2em;
- margin: 1em .25em;  
+ margin: 1em .25em; 
+ width: 33%;
 } 
 `;
 
