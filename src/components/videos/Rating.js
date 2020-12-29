@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Rating = ({ value,  color }) => {
   return (
-    <>
+    <Icons>
       <Icon>
         <i
           style={{ color }}
@@ -65,19 +65,26 @@ const Rating = ({ value,  color }) => {
           }
         ></i>
       </Icon>  
-    </>
+    </Icons>
   );
 };
 Rating.defaultProps = {
   color: "#ebebeb",
 };
 
+const Icons = styled.div`    
+   
+    @media (max-width: 720px) {        
+    margin: 1em .15em;   
+  
+}
+`;
 const Icon = styled.span`    
     font-size: 1.45em;
     color: #9E9C9F;
     @media (max-width: 720px) {  
-    font-size: 1.2em;    
-    margin: 1em .2em;   
+    font-size: 1em;    
+    margin: 1em .15em;   
   
 }
 `;
